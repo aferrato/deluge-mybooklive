@@ -234,7 +234,7 @@ echo -e "$(tput bold)$(tput setaf 6)Installing python-libtorrent$(tput sgr0)"
 aptitude install -y python-libtorrent
 
 echo -e "$(tput bold)$(tput setaf 6)Installing deluge deluged deluge-web deluge-console$(tput sgr0)"
-sudo apt-get install -y --force-yes -t lucid deluge deluged deluge-web deluge-console
+sudo apt-get install -y -t lucid deluge deluged deluge-web deluge-console
 
 echo -e "$(tput bold)$(tput setaf 6)I create the file /etc/default/deluge-daemon$(tput sgr0)"
 echo -e "$deluge_daemon_default" > "/etc/default/deluge-daemon"
