@@ -211,7 +211,7 @@ if grep "deb http://archive.debian.org/debian/ lenny main" /etc/apt/sources.list
 	then
 		echo -e "$(tput bold)$(tput setaf 6)deb http://archive.debian.org/debian/ lenny main is already available in the sources.list$(tput sgr0)"
 	else
-		echo -e "$(tput bold)$(tput setaf 6)Adding the Lenny repository alla sources.list$(tput sgr0)"
+		echo -e "$(tput bold)$(tput setaf 6)Adding Lenny repository to sources.list$(tput sgr0)"
 		echo -e "\n\n#Added by the installation script of Deluge \ndeb http://archive.debian.org/debian/ lenny main" >> /etc/apt/sources.list
 fi
 
