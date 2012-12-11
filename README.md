@@ -18,7 +18,7 @@ I had no issues, but I warned you!**
 
 ##How to use?
 ```
-$ wget https://github.com/ferra-andre/deluge-mybooklive/master/install-deluge.sh
+$ wget https://raw.github.com/ferra-andre/deluge-mybooklive/master/install-deluge.shh
 ```
 
 ```
@@ -31,7 +31,7 @@ $ sh install-deluge.sh
 
 ###Or in one line:
 ```
-$ wget https://github.com/ferra-andre/deluge-mybooklive/master/install-deluge.sh && chmod +x install-deluge.sh && sh install-deluge.sh
+$ wget https://raw.github.com/ferra-andre/deluge-mybooklive/master/install-deluge.sh && chmod +x install-deluge.sh && sh install-deluge.sh
 ```
 
 ##FAQ
