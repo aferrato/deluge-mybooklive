@@ -222,8 +222,10 @@ echo -e "$(tput bold)$(tput setaf 6)I create the file /etc/apt/preferences$(tput
 
 echo -e "Package: * \n Pin: release a=stable \n Pin-Priority: 700  \n \n Package: * \n Pin: release a=testing \n Pin-Priority: 650" > /etc/apt/preferences
 
-# Recovering and adding the GPG key for that repository
-apt-key adv --recv-keys --keyserver pgp.surfnet.nl 249AD24C
+# Recovering and adding the GPG keys
+apt-key adv --recv-keys --keyserver subkeys.pgp.net 249AD24C
+apt-key adv --recv-keys --keyserver subkeys.pgp.net AED4B06F473041FA
+apt-key adv --recv-keys --keyserver subkeys.pgp.net 64481591B98321F9
 
 echo -e "$(tput bold)$(tput setaf 6)Updating apt$(tput sgr0)"
 apt-get update
@@ -232,7 +234,7 @@ echo -e "$(tput bold)$(tput setaf 6)Installing python-libtorrent$(tput sgr0)"
 aptitude install -y python-libtorrent
 
 echo -e "$(tput bold)$(tput setaf 6)Installing deluge deluged deluge-web deluge-console$(tput sgr0)"
-sudo apt-get install -y -t lucid deluge deluged deluge-web deluge-console
+sudo apt-get install -y --force-yes -t lucid deluge deluged deluge-web deluge-console
 
 echo -e "$(tput bold)$(tput setaf 6)I create the file /etc/default/deluge-daemon$(tput sgr0)"
 echo -e "$deluge_daemon_default" > "/etc/default/deluge-daemon"
