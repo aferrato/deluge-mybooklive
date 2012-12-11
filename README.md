@@ -18,7 +18,7 @@ I had no issues, but I warned you!**
 
 ##How to use?
 ```
-$ wget https://raw.github.com/ferra-andre/deluge-mybooklive/master/install-deluge.shh
+$ wget https://raw.github.com/ferra-andre/deluge-mybooklive/master/install-deluge.sh
 ```
 
 ```
