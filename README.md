@@ -27,7 +27,7 @@ I had no issues, but I warned you!**
 `$ wget https://github.com/ferra-andre/deluge-mybooklive/master/install-deluge.sh && chmod +x install-deluge.sh && sh install-deluge.sh`
 
 ##FAQ
-* ###I hate you, I can not access my my book live!
+* ### I hate you, I can not access my my book live!
 I warned you, it could happen, try to recover it with this great script: [http://mybookworld.wikidot.com/forum/t-368098/debricking-script-that-can-keep-data](http://mybookworld.wikidot.com/forum/t-368098/debricking-script-that-can-keep-data) 
-* ###How do I access Deluge?
+* ### How do I access Deluge?
 Open the browser and enter: [http://ip.my.book.live:8112](http://ip.my.book.live:8112)
